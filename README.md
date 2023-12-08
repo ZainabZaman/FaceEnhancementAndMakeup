@@ -17,8 +17,7 @@ Before running the script, make sure you have the following dependencies install
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    !git clone https://github.com/sczhou/CodeFormer.git
     ```
 
 2. Install the required Python packages:
@@ -26,15 +25,15 @@ Before running the script, make sure you have the following dependencies install
     ```bash
     pip install -r requirements.txt
     ```
+    or through the provided `CodeFormer.ipynb` nootebook.
+   
+3. Replace the `./CodeFormer/inference_codeformer.py` with the `inferece_codeformer.py` file provided in this repository.
+  
+4. Run the `inference_codeformer.py` script script:
 
-3. Run the face restoration script:
-
-    ```bash
+    ```python
     python face_restoration.py
     ```
-
-    Make sure to replace 'YOUR_OPENAI_API_KEY' in the script with your actual OpenAI API key.
-
 ## Options
 
 The script includes options for different makeup styles:
@@ -45,9 +44,12 @@ The script includes options for different makeup styles:
 - `option_makeup = 4`: Deep Gray Eyebrows, Light Pink Lip, Gray Eyes, Brown Eyeliner
 - `option_makeup = 5`: Deep Gray Eyebrows, Crimson Lip, Gray Eyes, Black Eyeliner
 
-You can modify the `option_makeup` variable in the script to choose a specific makeup style.
+You can modify the `option_makeup` variable in the `inferece_codeformer.py` script to choose a specific makeup style.
 
 ## Acknowledgments
 
 - The CodeFormer model is used for face restoration.
 - Face recognition is performed using the `face_recognition` library.
+
+## Examples
+
