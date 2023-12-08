@@ -1,5 +1,3 @@
-# FaceEnhancementAndMakeup
-
 # Face Restoration with CodeFormer
 
 This repository contains a Python script for face restoration using the CodeFormer model. The script leverages face recognition and CodeFormer, a deep learning model, to enhance facial features in images.
@@ -53,7 +51,3 @@ You can modify the `option_makeup` variable in the script to choose a specific m
 
 - The CodeFormer model is used for face restoration.
 - Face recognition is performed using the `face_recognition` library.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
