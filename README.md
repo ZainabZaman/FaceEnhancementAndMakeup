@@ -1,6 +1,6 @@
-# Face Restoration with CodeFormer
+# AI Face Makeup Application & Enhancement Through Codeformer
 
-This repository contains a Python script for face restoration using the CodeFormer model. The script leverages face recognition and CodeFormer, a deep learning model, to enhance facial features in images.
+This repository contains a Python script for face makeup application and enhancement using the CodeFormer model. The script leverages face recognition and CodeFormer, a deep learning model, to enhance facial features in images.
 
 ## Prerequisites
 
@@ -14,22 +14,16 @@ Before running the script, make sure you have the following dependencies install
 
 ## Usage
 
-1. Clone the repository:
-
-    ```bash
-    !git clone https://github.com/sczhou/CodeFormer.git
-    ```
-
-2. Install the required Python packages:
+1. Install the required Python packages:
 
     ```bash
     pip install -r requirements.txt
     ```
     or through the provided `CodeFormer.ipynb` nootebook.
    
-3. Replace the `./CodeFormer/inference_codeformer.py` with the `inferece_codeformer.py` file provided in this repository.
+2. Replace the `./CodeFormer/inference_codeformer.py` with the `inferece_codeformer.py` file provided in this repository.
   
-4. Run the `inference_codeformer.py` script script:
+3. Run the `inference_codeformer.py` script script:
 
     ```python
     python face_restoration.py
