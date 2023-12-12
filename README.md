@@ -46,10 +46,12 @@ The script includes options for different makeup styles:
 
 You can modify the `option_makeup` variable in the `inferece_codeformer.py` script to choose a specific makeup style.
 
+## Examples
+The following were the results from the DLIB makeup application code
+![dlib_results](https://github.com/ZainabZaman/FaceEnhancementAndMakeup/blob/08a563cfbea6b3b612cbfd9092e218a4b7a30e9d/examples/results_makeup_dlib.png)
 ## Acknowledgments
 
 - The CodeFormer model is used for face restoration.
 - Face recognition is performed using the `face_recognition` library.
 
-## Examples
 
