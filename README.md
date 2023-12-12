@@ -49,6 +49,13 @@ You can modify the `option_makeup` variable in the `inferece_codeformer.py` scri
 ## Examples
 The following were the results from the DLIB makeup application code
 ![dlib_results](https://github.com/ZainabZaman/FaceEnhancementAndMakeup/blob/08a563cfbea6b3b612cbfd9092e218a4b7a30e9d/examples/results_makeup_dlib.png)
+
+Below are the results from the DLIB library refined through Codeformer
+![dlib_results](https://github.com/ZainabZaman/FaceEnhancementAndMakeup/blob/0030dd746c4401b59bd4e8d3453aee77305f2c0e/examples/results_makeup_refined.png)
+
+Shown below are the final results with makeup application through DLIB and refinement through Codeformer
+![dlib_results](https://github.com/ZainabZaman/FaceEnhancementAndMakeup/blob/0030dd746c4401b59bd4e8d3453aee77305f2c0e/examples/final_results.png)
+
 ## Acknowledgments
 
 - The CodeFormer model is used for face restoration.
